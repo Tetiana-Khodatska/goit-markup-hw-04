@@ -102,7 +102,7 @@ img {
 }
 
 .progect_item:not(:nth-last-child(-n + 3)) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .progect_item:not(:nth-child(3n)) {
