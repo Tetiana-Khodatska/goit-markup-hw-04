@@ -356,6 +356,12 @@ a {
   color: var(--primary-white-color);
 }
 
+.team-socials__page:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  border-radius: 50%;
+}
+
 /* our_clients */
 .clients {
   border-bottom: 1px solid var(--line-color);
@@ -433,6 +439,10 @@ a {
 }
 
 .regular-clients__link:focus {
+  color: var(--accent-color);
+}
+
+.regular-clients__item:focus {
   border-color: var(--accent-color);
   border-radius: 4px;
 }
