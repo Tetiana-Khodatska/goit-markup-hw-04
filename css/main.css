@@ -415,18 +415,18 @@ a {
   display: flex;
   justify-content: center;
   width: calc((100% - 150px) / 6);
-  height: 90px;
-  align-items: center;
-  border: 1px solid var(--title-text-color);
-  border-radius: 4px;
 }
 
 .regular-clients__link {
   color: #afb1b8;
-  /* padding: 30px; */
-  padding: 20px 60px;
-  width: auto;
-  height: auto;
+  width: 170px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--title-text-color);
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .regular-clients__link:hover {
@@ -439,10 +439,8 @@ a {
 }
 
 .regular-clients__link:focus {
+  width: 170px;
   color: var(--accent-color);
-}
-
-.regular-clients__item:focus {
   border-color: var(--accent-color);
   border-radius: 4px;
 }
